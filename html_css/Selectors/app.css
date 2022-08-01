@@ -34,3 +34,41 @@ h2 + button {
 footer > a {
   color: #231942;
 }
+
+a[href*="google"] {
+  font-weight: bold;
+  color: blue;
+}
+
+section button:hover {
+  color: #8338ec;
+  background-color: #a44a3f;
+}
+
+section a:hover {
+  text-decoration: underline;
+  color: #f72585;
+  font-weight: bold;
+}
+
+section button:active {
+  background-color: aqua;
+}
+
+.post:nth-of-type(2n + 1) {
+  background-color: #fcbf49;
+}
+
+input[type="checkbox"]:checked {
+  color: rgb(22, 116, 85);
+}
+
+h2::first-letter {
+  font-size: 40px;
+  color: #0f4c5c;
+  font-style: italic;
+}
+
+p::selection {
+  background-color: #f48c06;
+}
