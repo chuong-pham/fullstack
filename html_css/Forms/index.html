@@ -46,8 +46,68 @@
           <input id="batteries" type="checkbox" name="batteries" />
         </div>
 
+        <div>
+          <label for="pet-select">Choose a pet:</label>
+          <select name="pets" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parror">Parrot</option>
+            <option value="goldfish">Goldfish</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="city-select">Please select your city:</label>
+          <select id="city-select" name="city">
+            <option value="">Choose an option</option>
+            <option value="houston">Houston</option>
+            <option value="katy">Katy</option>
+            <option value="cypress">Cypress</option>
+            <option value="sugarland">Sugar Land</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="score">What is your score</label>
+          <input
+            id="score"
+            type="number"
+            name="score"
+            value="50"
+            min="0"
+            max="100"
+          />
+        </div>
+
+        <div>
+          <label for="red">R</label>
+          <input id="red" type="range" name="r" value="100" min="0" max="255" />
+
+          <label for="green">G</label>
+          <input
+            id="green"
+            type="range"
+            name="g"
+            value="100"
+            min="0"
+            max="255"
+          />
+
+          <label for="blue">B</label>
+          <input
+            id="blue"
+            type="range"
+            name="b"
+            value="100"
+            min="0"
+            max="255"
+          />
+        </div>
+
         <label>
-          <button type="submit">Sign in</button>
+          <button type="submit">Submit</button>
         </label>
       </div>
     </form>
