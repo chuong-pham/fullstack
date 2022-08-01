@@ -1,0 +1,36 @@
+body {
+  background-color: #faedcd;
+}
+
+button {
+  font-size: 20px;
+}
+
+#signup {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8338ec;
+  background-color: #ade8f4;
+}
+
+.tag {
+  color: #0096c7;
+  text-decoration: underline #8338ec;
+}
+
+.post a {
+  text-decoration: none;
+  color: #a44a3f;
+}
+
+footer a {
+  color: red;
+}
+
+h2 + button {
+  background-color: #f72585;
+}
+
+footer > a {
+  color: #231942;
+}
