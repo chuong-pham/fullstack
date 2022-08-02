@@ -1,0 +1,12 @@
+img {
+  width: 30%;
+  margin: 1.5%;
+}
+
+nav {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid grey;
+  padding: 0.3em 0.5em;
+}
