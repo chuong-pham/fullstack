@@ -1,0 +1,39 @@
+html {
+  background: #f6faff;
+}
+
+/*-- --*/
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-height: 35rem;
+}
+.item {
+  font-size: 2rem;
+  line-height: 1;
+  text-align: center;
+  padding: 3rem;
+  background: #dfeffd;
+  border: 3px solid #457fdc;
+  color: #457fdc;
+  margin: 6px;
+}
+
+.item-3 {
+  order: -1;
+  background: mistyrose;
+  border: 3px solid tomato;
+  color: tomato;
+}
+
+.controls {
+  padding: 30px 6px;
+  font-size: 1.2rem;
+  color: #2f4f4f;
+}
+
+.controls select {
+  margin-right: 20px;
+  color: #2f4f4f;
+}
