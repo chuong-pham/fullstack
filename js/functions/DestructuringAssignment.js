@@ -13,3 +13,5 @@ const HIGH_TEMPERATURES = {
 const { yesterday, tomorrow } = HIGH_TEMPERATURES;
 console.log(yesterday);
 console.log(tomorrow);
+
+const dog = {};
