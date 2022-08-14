@@ -1,0 +1,91 @@
+body{
+    background-color:#EEF0F2;
+    margin:0;
+}
+
+.header{
+    color:#333333;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color:#260C1A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flexbox{
+    background-color:#55917F;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 20px;
+}
+
+.flex_item{
+    background-color:#F97068;
+    color:#260C1A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1rem;
+    flex-grow: 1;
+}
+
+.grid{
+    background-color:#55917F;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.grid_item{
+    background-color:#F97068;
+    color:#260C1A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+
+.example_container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    grid-template-rows: 0.25fr 2fr 0.25fr;
+    grid-template-areas: 
+        "head head"
+        "main aside"
+        "foot foot";
+}
+
+header{
+    grid-area: head;
+    background-color: lightblue;
+}
+
+main{
+    grid-area: main;
+    background-color: yellow;
+}
+
+aside{
+    grid-area: aside;
+    background-color: lightpink;
+}
+
+footer{
+    grid-area: foot;
+    background-color: lightgreen;
+}
+
+.navbar{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
