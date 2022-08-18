@@ -1,14 +1,4 @@
-let car = {
-  make: "toyota",
-  model: "camry",
-  year: 2006,
-  wheels: 4
-};
-
-delete car.wheels;
-console.log(car);
-
-for(let prop in car) {
-  console.log(prop + ": " + car[prop]);
+const obj = { name: "Joe", age: 26, favoriteColor: "purple" };
+for (prop in obj) {
+  console.log(obj[prop]);
 }
-
