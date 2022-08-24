@@ -1,4 +1,9 @@
-const obj = { name: "Joe", age: 26, favoriteColor: "purple" };
-for (prop in obj) {
-  console.log(obj[prop]);
+function myBio(firstName, ...otherInfo, lastName) {
+  return otherInfo;
 }
+
+// Invoke myBio function while passing five arguments to its parameters:
+console.log(
+  myBio("Oluwatobi", "Sofela", "CodeSweetly", "Web Developer", "Male")
+);
+
