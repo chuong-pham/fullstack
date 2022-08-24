@@ -69,6 +69,10 @@ header {
     display: none;
 }
 
+main {
+    padding: 100px;
+}
+
 section {
     padding: 100px 16.7%;
     
@@ -309,7 +313,8 @@ section {
 ul{
 	list-style: none;
 }
-.footer{
+
+footer{
 	background-color: var(--bg-color);
     padding: 70px 0;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
@@ -375,6 +380,13 @@ ul{
     transition: 0.4s;
 }
 
+.about-text .info-link {
+    color: var(--text-color);
+}
+
+.about-text .info-link:hover {
+    color: var(--main-color);
+}
 /*responsive*/
 @media (max-width: 1500px) {
     header {
