@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //1. Function Expression
 /* let add = function(x,y) {
     return x+y;
