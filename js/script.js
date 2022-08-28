@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
 //1. Function Expression
 /* let add = function(x,y) {
     return x+y;
@@ -214,4 +212,4 @@ function listItem() {
 }
 const n = [1,2,3,4,5]
 listItem(...n);
->>>>>>> bfb5d4d27659b7f4443bed6fd5b9738e4b012326
+
