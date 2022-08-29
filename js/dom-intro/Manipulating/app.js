@@ -1,12 +1,3 @@
-const allLinks = document.querySelectorAll('a');
+const toc = document.getElementById('toc');
 
-// for (let link of allLinks) {
-//     link.innerText = 'I AM A LINK!!!!'
-// }
-
-
-for (let link of allLinks) {
-    link.style.color = 'rgb(0, 108, 134)';
-    link.style.textDecorationColor = 'magenta';
-    link.style.textDecorationStyle = 'wavy'
-}
+console.dir(toc);
