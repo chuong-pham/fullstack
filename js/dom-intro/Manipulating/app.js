@@ -1,3 +1,3 @@
-const toc = document.getElementById('toc');
+let h1Node = document.getElementById('header');
 
-console.dir(toc);
+console.log(h1Node);
