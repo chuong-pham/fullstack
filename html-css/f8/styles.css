@@ -1,0 +1,11 @@
+.box-1 {
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+  border-radius: 50%;
+  transition: 1s;
+}
+input:checked ~ .box-1 {
+  visibility: hidden;
+  opacity: 0;
+}
